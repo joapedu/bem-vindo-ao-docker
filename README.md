@@ -23,8 +23,8 @@ _Obs: Esse repositório foi elaborado pegando como base o [Welcome to Docker Ofi
 
 Build e rode:
 ```zsh
-docker build -t welcome-to-docker . 
-docker run -d -p 8088:3000 --name welcome-to-docker welcome-to-docker
+docker build -t bem-vindo-ao-docker . 
+docker run -d -p 8088:3000 --name bem-vindo-ao-docker bem-vindo-ao-docker
 ```
 Após isso, abra `http://localhost:8088` no navegador.
 
